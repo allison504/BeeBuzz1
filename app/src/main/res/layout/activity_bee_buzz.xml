@@ -7,6 +7,30 @@
         android:layout_height="match_parent"
         tools:context=".BeeBuzzActivity">
 
+    <Button
+            android:text="Buzz!"
+            android:layout_width="wrap_content"
+            android:layout_height="44dp" tools:layout_editor_absoluteY="234dp"
+            tools:layout_editor_absoluteX="280dp" android:id="@+id/button4"
+            android:background="@android:color/holo_blue_bright"/>
+    <Button
+            android:text="Buzz!"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" tools:layout_editor_absoluteY="339dp"
+            tools:layout_editor_absoluteX="29dp" android:id="@+id/button6"
+            android:background="@android:color/holo_blue_bright"/>
+    <Button
+            android:text="Buzz!"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" tools:layout_editor_absoluteY="353dp"
+            tools:layout_editor_absoluteX="253dp" android:id="@+id/button5"
+            android:background="@android:color/holo_blue_bright"/>
+    <Button
+            android:text="Buzz!"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" tools:layout_editor_absoluteY="150dp"
+            tools:layout_editor_absoluteX="216dp" android:id="@+id/button3"
+            android:background="@android:color/holo_blue_bright"/>
     <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -410,51 +434,6 @@
             tools:layout_editor_absoluteY="94dp"
             tools:layout_editor_absoluteX="70dp"
             android:id="@+id/imageView62"/>
-    <TextView
-            android:text="TextView"
-            android:layout_width="48dp"
-            android:layout_height="27dp"
-            tools:layout_editor_absoluteY="210dp"
-            tools:layout_editor_absoluteX="29dp"
-            android:id="@+id/textView"
-            tools:text="Buzz!"
-            android:textAppearance="@style/TextAppearance.AppCompat.Body2"/>
-    <TextView
-            android:text="TextView"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            tools:layout_editor_absoluteY="159dp"
-            tools:layout_editor_absoluteX="230dp"
-            android:id="@+id/textView4"
-            tools:text="Buzz!"
-            android:textAppearance="@style/TextAppearance.AppCompat.Body1"/>
-    <TextView
-            android:text="TextView"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            tools:layout_editor_absoluteY="256dp"
-            tools:layout_editor_absoluteX="304dp"
-            android:id="@+id/textView5"
-            tools:text="Buzz!"
-            android:textAppearance="@style/TextAppearance.AppCompat.Body2"/>
-    <TextView
-            android:text="TextView"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            tools:layout_editor_absoluteY="353dp"
-            tools:layout_editor_absoluteX="50dp"
-            android:id="@+id/textView6"
-            tools:text="Buzz!"
-            android:textAppearance="@style/TextAppearance.AppCompat"/>
-    <TextView
-            android:text="TextView"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            tools:layout_editor_absoluteY="387dp"
-            tools:layout_editor_absoluteX="279dp"
-            android:id="@+id/textView7"
-            tools:text="Buzz!"
-            android:textAppearance="@style/TextAppearance.AppCompat.Body1"/>
     <ImageView
             android:layout_width="14dp"
             android:layout_height="16dp"
@@ -518,5 +497,11 @@
             tools:layout_editor_absoluteY="177dp"
             tools:layout_editor_absoluteX="135dp"
             android:id="@+id/imageView71"/>
+    <Button
+            android:text="Buzz!"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" tools:layout_editor_absoluteY="211dp"
+            tools:layout_editor_absoluteX="16dp" android:id="@+id/button"
+            android:background="@android:color/holo_blue_bright"/>
 
 </android.support.constraint.ConstraintLayout>
